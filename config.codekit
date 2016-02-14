@@ -3247,6 +3247,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/backsplash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85875,
+		"inputAbbreviatedPath": "\/img\/backsplash.jpg",
+		"outputAbbreviatedPath": "\/img\/backsplash.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/floorpro.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3258,6 +3269,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hardwood-flooring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48508,
+		"inputAbbreviatedPath": "\/img\/hardwood-flooring.jpg",
+		"outputAbbreviatedPath": "\/img\/hardwood-flooring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3265,6 +3287,17 @@
 		"initialSize": 125976,
 		"inputAbbreviatedPath": "\/img\/header.jpg",
 		"outputAbbreviatedPath": "\/img\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-design.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55430,
+		"inputAbbreviatedPath": "\/img\/home-design.jpg",
+		"outputAbbreviatedPath": "\/img\/home-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3354,6 +3387,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/backstretch.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/backstretch.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/backstretch.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,

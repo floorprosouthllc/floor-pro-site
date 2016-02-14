@@ -75,7 +75,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="backstretch">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Middle Georgia's most trusted flooring specialist.</h1>
@@ -237,7 +237,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:	rich.d.patrick@gmail.com">	rich.d.patrick@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -260,12 +260,22 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/backstretch.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
     
     <!-- lightbox js -->
     <link href="lightbox/src/js/lightbox.js" rel="stylesheet">
+    
+    <script>
+    $('.backstretch').backstretch([
+      "http://st.hzcdn.com/simgs/6c61825701ba01a3_8-4618/traditional.jpg"
+    , "img/home-design.jpg"
+    , "img/hardwood-flooring.jpg"
+    , "img/backsplash.jpg"
+  ], {duration: 5000, fade: 750});
+    </script>
 
 </body>
 
