@@ -144,7 +144,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-color: black;
   background-image: url('http://st.hzcdn.com/simgs/6c61825701ba01a3_8-4618/traditional.jpg');
   text-align: center;
@@ -403,4 +403,8 @@ body {
 }
 #logo {
   margin: 5px;
+}
+
+.accoladeImg {
+    padding-right: 10px;
 }
