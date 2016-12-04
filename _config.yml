@@ -69,6 +69,11 @@ prose:
       - name: "page"
         field:
           element: "hidden"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "Headline Content"
+          help: "The homepage's main headline goes here."
     _posts:
       - name: "category"
         field:
