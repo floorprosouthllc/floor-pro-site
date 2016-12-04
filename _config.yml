@@ -36,12 +36,22 @@ prose:
   media: 'media'
   metadata:
     "":
-      - name: "mainContent"
+      #- name: "mainContent"
+        #field:
+          #element: "textarea"
+          #label: "Main content for this page"
+          #help:  "Usually appears at the top of the page, or is the largest text aside from #headers."
+          #value: "This is where Main Content goes."
+      - name: "layout"
         field:
-          element: "textarea"
-          label: "Main content for this page"
-          help:  "Usually appears at the top of the page, or is the largest text aside from headers."
-          value: "This is where Main Content goes."
+          element: "hidden"
+          value: "gallery"
+      - name: "title"
+        field:
+          element: "hidden"
+      - name: "page"
+        field:
+          element: "hidden"
     _posts:
       - name: "category"
         field:
