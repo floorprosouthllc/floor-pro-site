@@ -64,7 +64,6 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "gallery"
       - name: "title"
         field:
           element: "hidden"
