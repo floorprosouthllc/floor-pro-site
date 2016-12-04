@@ -51,8 +51,7 @@ prose:
     - /_site
     - /.sass-cache
     - config.codekit
-    - config.
-    - .html
+    - config.codekit3
   metadata:
     "":
       #- name: "mainContent"
