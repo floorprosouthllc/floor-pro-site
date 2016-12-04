@@ -32,7 +32,6 @@ exclude:
 sass:
     sass_dir: _sass
 prose:
-  rooturl: 'floor-pro'
   siteurl: 'http://www.estenpatrick.com/floor-pro'
   media: 'img'
   ignore:
