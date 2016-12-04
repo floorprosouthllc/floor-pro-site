@@ -32,7 +32,7 @@ exclude:
 sass:
     sass_dir: _sass
 prose:
-  siteurl: 'http://www.estenpatrick.com'
+  siteurl: 'http://www.estenpatrick.com/floor-pro'
   media: 'media'
   metadata:
     "":
