@@ -32,6 +32,7 @@ exclude:
 sass:
     sass_dir: _sass
 prose:
+  rooturl: 'floor-pro'
   siteurl: 'http://www.estenpatrick.com/floor-pro'
   media: 'img'
   ignore:
@@ -52,7 +53,6 @@ prose:
     - /.sass-cache
     - config.codekit
     - config.codekit3
-    - index.html
   metadata:
     "":
       #- name: "mainContent"
