@@ -5,9 +5,3 @@ title: Backsplashs
 page: backsplash
 
 ---
-
-{% for image in site.static_files %}
-    {% if image.path contains 'img' and image.path contains page.page %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-    {% endif %}
-{% endfor %}
