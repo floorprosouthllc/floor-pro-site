@@ -35,10 +35,21 @@ prose:
   siteurl: 'http://www.estenpatrick.com/floor-pro'
   media: 'img'
   ignore:
-    - index.md
     - _config.yml
     - /_layouts
     - /_includes
+    - LICENSE
+    - README.md
+    - contributors.txt
+    - /lightbox
+    - /js
+    - /less
+    - /fonts
+    - /font-awesome
+    - /css
+    - bower_components
+    - /_site
+    - /.sass-cache
   metadata:
     "":
       #- name: "mainContent"
