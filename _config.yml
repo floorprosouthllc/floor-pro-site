@@ -50,6 +50,9 @@ prose:
     - bower_components
     - /_site
     - /.sass-cache
+    - config.codekit
+    - config.codekit3
+    - index.html
   metadata:
     "":
       #- name: "mainContent"
