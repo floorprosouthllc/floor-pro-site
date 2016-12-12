@@ -33,7 +33,7 @@ sass:
     sass_dir: _sass
 prose:
   siteurl: 'http://www.estenpatrick.com/floor-pro'
-  media: 'img'
+  media: 'images'
   ignore:
     - _config.yml
     - /_layouts
