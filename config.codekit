@@ -2,6 +2,33 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19137",
 "files": {
+	"\/_includes\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/backstretch.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/backstretch.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/foot.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -20,11 +47,56 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/nav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/nav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/portfolio.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/portfolio.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/services.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/services.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_layouts\/backstretch-center.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/backstretch-center.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/gallery.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2777,6 +2849,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/variables.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/variables.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/font-awesome\/css\/font-awesome.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3080,222 +3161,243 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/img\/backsplash\/backsplash.jpg": {
+	"\/_site\/homepage-content\/backstretch.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/homepage-content\/backstretch.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/_site\/homepage-content\/backstretch.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/_site\/images\/backsplash\/backsplash.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 85875,
-		"inputAbbreviatedPath": "\/_site\/img\/backsplash\/backsplash.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/backsplash\/backsplash.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/backsplash\/backsplash.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backsplash\/backsplash.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/bath\/home-design.jpg": {
+	"\/_site\/images\/bath\/home-design.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 55430,
-		"inputAbbreviatedPath": "\/_site\/img\/bath\/home-design.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/bath\/home-design.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/bath\/home-design.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/bath\/home-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/floorpro.png": {
+	"\/_site\/images\/floorpro.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8297,
-		"inputAbbreviatedPath": "\/_site\/img\/floorpro.png",
-		"outputAbbreviatedPath": "\/_site\/img\/floorpro.png",
+		"inputAbbreviatedPath": "\/_site\/images\/floorpro.png",
+		"outputAbbreviatedPath": "\/_site\/images\/floorpro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 2.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 2.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 2.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 3.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 3.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 3.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 3.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 4.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 4.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 4.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 4.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 5.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 5.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 5.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 5.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 6.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 6.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 6.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 6.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 7.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 7.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 7.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 7.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring 8.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring 8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 8.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring 8.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 8.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring 8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/hardwood-flooring.jpg": {
+	"\/_site\/images\/hardwood\/hardwood-flooring.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/hardwood-flooring.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/hardwood-flooring.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hardwood\/traditional.jpg": {
+	"\/_site\/images\/hardwood\/traditional.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86298,
-		"inputAbbreviatedPath": "\/_site\/img\/hardwood\/traditional.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hardwood\/traditional.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/hardwood\/traditional.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/hardwood\/traditional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/header.jpg": {
+	"\/_site\/images\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 125976,
-		"inputAbbreviatedPath": "\/_site\/img\/header.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/header.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/header.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/1.jpg": {
+	"\/_site\/images\/portfolio\/1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 63788,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/1.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/1.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/1.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/2.jpg": {
+	"\/_site\/images\/portfolio\/2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48101,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/2.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/2.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/3.jpg": {
+	"\/_site\/images\/portfolio\/3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48228,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/3.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/3.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/3.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/4.jpg": {
+	"\/_site\/images\/portfolio\/4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49055,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/4.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/4.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/4.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/5.jpg": {
+	"\/_site\/images\/portfolio\/5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 62334,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/5.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/5.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/5.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/portfolio\/6.jpg": {
+	"\/_site\/images\/portfolio\/6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53428,
-		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/6.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/6.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/6.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/tile\/wall-and-floor-tile.jpg": {
+	"\/_site\/images\/tile\/wall-and-floor-tile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 61203,
-		"inputAbbreviatedPath": "\/_site\/img\/tile\/wall-and-floor-tile.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/tile\/wall-and-floor-tile.jpg",
+		"inputAbbreviatedPath": "\/_site\/images\/tile\/wall-and-floor-tile.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/tile\/wall-and-floor-tile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3467,7 +3569,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/less\/custom.less",
 		"outputAbbreviatedPath": "\/_site\/css\/custom.css",
@@ -3753,27 +3855,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_site\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/_site\/tile.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3783,23 +3864,47 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/backsplash.html": {
-		"fileType": 8192,
+	"\/backsplash.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/backsplash.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/backsplash.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/backsplash.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
-	"\/bath.html": {
-		"fileType": 8192,
+	"\/bath.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bath.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/bath.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/bath.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/bootstrap\/bower.json": {
 		"fileType": 524288,
@@ -6542,6 +6647,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/variables.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/variables.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/font-awesome\/css\/font-awesome.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -7028,231 +7142,264 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/hardwood.html": {
-		"fileType": 8192,
+	"\/hardwood.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/hardwood.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/hardwood.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/hardwood.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
-	"\/img\/backsplash\/backsplash.jpg": {
+	"\/homepage-content\/backstretch.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/homepage-content\/backstretch.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/homepage-content\/backstretch.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/images\/backsplash\/backsplash.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 85875,
-		"inputAbbreviatedPath": "\/img\/backsplash\/backsplash.jpg",
-		"outputAbbreviatedPath": "\/img\/backsplash\/backsplash.jpg",
+		"inputAbbreviatedPath": "\/images\/backsplash\/backsplash.jpg",
+		"outputAbbreviatedPath": "\/images\/backsplash\/backsplash.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bath\/home-design.jpg": {
+	"\/images\/bath\/home-design.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 55430,
-		"inputAbbreviatedPath": "\/img\/bath\/home-design.jpg",
-		"outputAbbreviatedPath": "\/img\/bath\/home-design.jpg",
+		"inputAbbreviatedPath": "\/images\/bath\/home-design.jpg",
+		"outputAbbreviatedPath": "\/images\/bath\/home-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/floorpro.png": {
+	"\/images\/floorpro.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8297,
-		"inputAbbreviatedPath": "\/img\/floorpro.png",
-		"outputAbbreviatedPath": "\/img\/floorpro.png",
+		"inputAbbreviatedPath": "\/images\/floorpro.png",
+		"outputAbbreviatedPath": "\/images\/floorpro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 2.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 2.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 2.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 2.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 3.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 3.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 3.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 3.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 4.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 4.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 4.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 4.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 5.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 5.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 5.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 5.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 6.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 6.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 6.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 6.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 7.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 7.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 7.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 7.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring 8.jpg": {
+	"\/images\/hardwood\/hardwood-flooring 8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 8.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring 8.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 8.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring 8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/hardwood-flooring.jpg": {
+	"\/images\/hardwood\/hardwood-flooring.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48508,
-		"inputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/hardwood-flooring.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/hardwood-flooring.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hardwood\/traditional.jpg": {
+	"\/images\/hardwood\/traditional.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86298,
-		"inputAbbreviatedPath": "\/img\/hardwood\/traditional.jpg",
-		"outputAbbreviatedPath": "\/img\/hardwood\/traditional.jpg",
+		"inputAbbreviatedPath": "\/images\/hardwood\/traditional.jpg",
+		"outputAbbreviatedPath": "\/images\/hardwood\/traditional.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/header.jpg": {
+	"\/images\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 125976,
-		"inputAbbreviatedPath": "\/img\/header.jpg",
-		"outputAbbreviatedPath": "\/img\/header.jpg",
+		"inputAbbreviatedPath": "\/images\/header.jpg",
+		"outputAbbreviatedPath": "\/images\/header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/1.jpg": {
+	"\/images\/portfolio\/1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 63788,
-		"inputAbbreviatedPath": "\/img\/portfolio\/1.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/1.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/2.jpg": {
+	"\/images\/portfolio\/2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48101,
-		"inputAbbreviatedPath": "\/img\/portfolio\/2.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/2.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/3.jpg": {
+	"\/images\/portfolio\/3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48228,
-		"inputAbbreviatedPath": "\/img\/portfolio\/3.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/3.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/4.jpg": {
+	"\/images\/portfolio\/4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49055,
-		"inputAbbreviatedPath": "\/img\/portfolio\/4.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/4.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/5.jpg": {
+	"\/images\/portfolio\/5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 62334,
-		"inputAbbreviatedPath": "\/img\/portfolio\/5.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/5.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/5.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/portfolio\/6.jpg": {
+	"\/images\/portfolio\/6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53428,
-		"inputAbbreviatedPath": "\/img\/portfolio\/6.jpg",
-		"outputAbbreviatedPath": "\/img\/portfolio\/6.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio\/6.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio\/6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/tile\/wall-and-floor-tile.jpg": {
+	"\/images\/tile\/wall-and-floor-tile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 61203,
-		"inputAbbreviatedPath": "\/img\/tile\/wall-and-floor-tile.jpg",
-		"outputAbbreviatedPath": "\/img\/tile\/wall-and-floor-tile.jpg",
+		"inputAbbreviatedPath": "\/images\/tile\/wall-and-floor-tile.jpg",
+		"outputAbbreviatedPath": "\/images\/tile\/wall-and-floor-tile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7424,7 +7571,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/custom.less",
 		"outputAbbreviatedPath": "\/css\/custom.css",
@@ -7465,7 +7612,7 @@
 		"fileType": 1,
 		"ieCompatibility": 1,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/less\/variables.less",
 		"outputAbbreviatedPath": "\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
@@ -7710,7 +7857,7 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/README.md": {
+	"\/tile.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -7719,9 +7866,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
+		"inputAbbreviatedPath": "\/tile.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/README.html",
+		"outputAbbreviatedPath": "\/tile.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -7730,15 +7877,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/tile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

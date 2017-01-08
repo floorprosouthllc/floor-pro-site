@@ -74,6 +74,11 @@ prose:
           element: "text"
           label: "Headline Content"
           help: "The homepage's main headline goes here."
+      - name: "alert"
+        field:
+          element: "text"
+          label: "Alert Content"
+          help: "If provided, this text will display below the page nav to alert the user of information."
     _posts:
       - name: "category"
         field:
