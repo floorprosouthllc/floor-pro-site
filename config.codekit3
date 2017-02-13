@@ -7,7 +7,7 @@
 		"uuidString": "0201BC78-AAA3-4102-B67C-79DB471548A9"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.sass-cache\/35e53f51579c02c9723081f4eb453b8d8d7a49eb\/_base.scssc": {
 		"ft": 8192,
@@ -3212,7 +3212,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/_site\/css\/custom.css",
 		"oF": 0,
 		"oS": 0,
@@ -7797,6 +7797,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -8336,6 +8340,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
