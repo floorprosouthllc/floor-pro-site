@@ -84,6 +84,17 @@ prose:
           element: "text"
           label: "Alert Content"
           help: "If provided, this text will display below the page nav to alert the user of information."
+    _homepage-content:
+      - name: "icon"
+        field:
+          element: "select"
+          options: 
+            - name: "Street View"
+              value: "fa-street-view"
+            - name: "Wrench"
+              value: "fa-wrench"
+            - name: "History"
+              value: "fa-history"
     _posts:
       - name: "category"
         field:
