@@ -1,1 +1,0 @@
-Middle Georgia's most trusted flooring specialist.
