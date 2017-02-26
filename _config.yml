@@ -97,6 +97,18 @@ prose:
               value: "fa-wrench"
             - name: "History"
               value: "fa-history"
+      - name: "content-area"
+        field:
+          element: "select"
+          label: "Location"
+          help: "This will select the area of the page to put the content. Do not change unless you are sure what you're doing."
+          options: 
+            - name: "Main Splash"
+              value: "backstretch"
+            - name: "About"
+              value: "about"
+            - name: "Services"
+              value: "service"
     _posts:
       - name: "category"
         field:
