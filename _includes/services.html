@@ -7,18 +7,11 @@
             </div>
         </div>
     </div>
-    <div class="container">        
+    <div class="container">   
+        
         {% for service in site.data.homepage-content.services %}
-            {{ service[0].heading }}
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-street-view wow bounceIn text-primary"></i>
-                        <h3>Site Finished Hardwood</h3>
-                        <p class="text-muted">Don't get beat by pre-finished hardwood! Only FLOOR PRO offers site finished hardwood floors. </p>
-                    </div>
-                </div>
-            </div>
+            {{ service }}
+            
             {% endfor %}
         <div class="row">
             <div class="col-lg-4 col-md-6 text-center">
