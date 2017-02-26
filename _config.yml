@@ -88,6 +88,8 @@ prose:
       - name: "icon"
         field:
           element: "select"
+          label: "Icon"
+          help: "You may select a custom icon for this content area from the list."
           options: 
             - name: "Street View"
               value: "fa-street-view"
