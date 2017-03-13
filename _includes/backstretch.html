@@ -2,8 +2,8 @@
     <div class="header-content">
         <div class="header-content-inner">
             <!-- This include pulls in content from a specific folder -->
-            <h1>
-                {% for text in site.homepage-content limit:1 %}
+            <h1 class='content-output'>
+                {% for text in site.homepage-content %}
                     {% if text.content-area == 'backstretch' %}
                         {{ text }}
                     {% endif %}
