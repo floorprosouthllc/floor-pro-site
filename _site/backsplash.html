@@ -555,10 +555,6 @@
                 
             
                 
-            
-                
-            
-                
                     <div class="col-xs-12 col-md-4 img-container">
                         <a href="/images/backsplash/backsplash.jpg" data-lightbox="thumb-nail">
                             <img src="/images/backsplash/backsplash.jpg" alt="image" class="img-responsive"/>
@@ -711,17 +707,28 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!-- Custom functions -->
+    <script src="js/custom.js"></script>
     
     <!-- lightbox js -->
     <script src="lightbox/src/js/lightbox.js"></script>
     
     <script>
-    $('.backstretch').backstretch([
-      "http://st.hzcdn.com/simgs/6c61825701ba01a3_8-4618/traditional.jpg"
-    , "images/home-design.jpg"
-    , "images/hardwood-flooring.jpg"
-    , "images/backsplash.jpg"
-  ], {duration: 5000, fade: 750});
+        $(document).ready(function() {
+            $('.backstretch').backstretch([
+              "http://st.hzcdn.com/simgs/6c61825701ba01a3_8-4618/traditional.jpg"
+            , "images/home-design.jpg"
+            , "images/hardwood-flooring.jpg"
+            , "images/backsplash.jpg"
+          ], {duration: 5000, fade: 750});
+
+            
+            $('#status-alert a.close').click(function() {
+                
+            });
+            checkAlertCookie();
+        });
     </script>
 
 </body>

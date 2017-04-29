@@ -13,13 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Esten Patrick
+title: Floor Pro
 email: estenpatrick@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Esten Patrick's personal and portfolio website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.estenpatrick.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  estenp
+url: "http://www.floorpro.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Collections
+collections:
+  homepage-content:
+    output: false
+    content-area: homepage
 
 # Build settings
 markdown: kramdown
@@ -79,6 +84,31 @@ prose:
           element: "text"
           label: "Alert Content"
           help: "If provided, this text will display below the page nav to alert the user of information."
+    _homepage-content:
+      - name: "icon"
+        field:
+          element: "select"
+          label: "Icon"
+          help: "You may select a custom icon for this content area from the list."
+          options: 
+            - name: "Street View"
+              value: "fa-street-view"
+            - name: "Wrench"
+              value: "fa-wrench"
+            - name: "History"
+              value: "fa-history"
+      - name: "content-area"
+        field:
+          element: "select"
+          label: "Location"
+          help: "This will select the area of the page to put the content. Do not change unless you are sure what you're doing."
+          options: 
+            - name: "Main Splash"
+              value: "backstretch"
+            - name: "About"
+              value: "about"
+            - name: "Services"
+              value: "service"
     _posts:
       - name: "category"
         field:
