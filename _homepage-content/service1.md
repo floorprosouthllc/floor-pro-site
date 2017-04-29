@@ -1,6 +1,6 @@
 ---
-content-area: service
 title: Site Finished Hardwood
+content-area: service
 icon: fa-street-view
 ---
 

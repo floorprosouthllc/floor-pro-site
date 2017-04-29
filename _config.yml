@@ -1,159 +1,146 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+---
 title: Floor Pro
-email: estenpatrick@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Esten Patrick's personal and portfolio website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.floorpro.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Collections
+timezone: UTC
 collections:
   homepage-content:
+    title: Homepage Content
     output: false
     content-area: homepage
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: estenpatrick@gmail.com
+description: 'Esten Patrick''s personal and portfolio website.
 
-# Build settings
+'
+baseurl: ''
+url: http://www.floorpro.com
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 prose:
-  siteurl: 'http://www.estenpatrick.com/floor-pro'
-  media: 'images'
+  siteurl: http://www.estenpatrick.com/floor-pro
+  media: images
   ignore:
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - LICENSE
-    - README.md
-    - contributors.txt
-    - /lightbox
-    - /js
-    - /less
-    - /fonts
-    - /font-awesome
-    - /css
-    - bower_components
-    - /_site
-    - /.sass-cache
-    - config.codekit
-    - config.codekit3
+  - _config.yml
+  - "/_layouts"
+  - "/_includes"
+  - LICENSE
+  - README.md
+  - contributors.txt
+  - "/lightbox"
+  - "/js"
+  - "/less"
+  - "/fonts"
+  - "/font-awesome"
+  - "/css"
+  - bower_components
+  - "/_site"
+  - "/.sass-cache"
+  - config.codekit
+  - config.codekit3
   metadata:
-    "":
-      #- name: "mainContent"
-        #field:
-          #element: "textarea"
-          #label: "Main content for this page"
-          #help:  "Usually appears at the top of the page, or is the largest text aside from #headers."
-          #value: "This is where Main Content goes."
-      - name: "layout"
-        field:
-          element: "hidden"
-      - name: "title"
-        field:
-          element: "hidden"
-      - name: "page"
-        field:
-          element: "hidden"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "Headline Content"
-          help: "The homepage's main headline goes here."
-      - name: "alert"
-        field:
-          element: "text"
-          label: "Alert Content"
-          help: "If provided, this text will display below the page nav to alert the user of information."
+    '':
+    - name: layout
+      field:
+        element: hidden
+    - name: title
+      field:
+        element: hidden
+    - name: page
+      field:
+        element: hidden
+    - name: headline
+      field:
+        element: text
+        label: Headline Content
+        help: The homepage's main headline goes here.
+    - name: alert
+      field:
+        element: text
+        label: Alert Content
+        help: If provided, this text will display below the page nav to alert the
+          user of information.
     _homepage-content:
-      - name: "icon"
-        field:
-          element: "select"
-          label: "Icon"
-          help: "You may select a custom icon for this content area from the list."
-          options: 
-            - name: "Street View"
-              value: "fa-street-view"
-            - name: "Wrench"
-              value: "fa-wrench"
-            - name: "History"
-              value: "fa-history"
-      - name: "content-area"
-        field:
-          element: "select"
-          label: "Location"
-          help: "This will select the area of the page to put the content. Do not change unless you are sure what you're doing."
-          options: 
-            - name: "Main Splash"
-              value: "backstretch"
-            - name: "About"
-              value: "about"
-            - name: "Services"
-              value: "service"
+    - name: icon
+      field:
+        element: select
+        label: Icon
+        help: You may select a custom icon for this content area from the list.
+        options:
+        - name: Street View
+          value: fa-street-view
+        - name: Wrench
+          value: fa-wrench
+        - name: History
+          value: fa-history
+    - name: content-area
+      field:
+        element: select
+        label: Location
+        help: This will select the area of the page to put the content. Do not change
+          unless you are sure what you're doing.
+        options:
+        - name: Main Splash
+          value: backstretch
+        - name: About
+          value: about
+        - name: Services
+          value: service
     _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "blog"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+    - name: category
+      field:
+        element: hidden
+        value: blog
+    - name: layout
+      field:
+        element: hidden
+        value: blog
+    - name: title
+      field:
+        element: text
+        label: Title
+        value: ''
+    - name: splash
+      field:
+        element: text
+        label: Splash image
+        value: ''
+    - name: tags
+      field:
+        element: multiselect
+        label: Add Tags
+        placeholder: Choose Tags
+        options:
+        - name: Apples
+          value: apples
+        - name: Bananas
+          value: bananas
+        - name: Pears
+          value: pears
+        - name: Mangos
+          value: mangos
     _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+    - name: layout
+      field:
+        element: hidden
+        value: page
+    - name: title
+      field:
+        element: text
+        label: Title
+        value: ''
+    - name: permalink
+      field:
+        element: text
+        label: Permalink
+        value: ''
