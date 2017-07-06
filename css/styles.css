@@ -403,6 +403,9 @@ body {
 #logo {
   margin: 5px;
 }
+section {
+  background-color: #e3e3e3;
+}
 .img-container img {
   width: 50%;
   margin-left: auto;
@@ -410,6 +413,10 @@ body {
 }
 .navbar {
   min-height: 50px;
+  margin-bottom: 0px;
+}
+.navbar .logo-header {
+  background-color: #e3e3e3;
 }
 .nav-links {
   background-color: #fff;
@@ -440,4 +447,10 @@ body {
 p.content-output p {
   margin: 0;
   padding: 0;
+}
+#portfolio .panel-content {
+  text-transform: uppercase;
+  text-align: center;
+  height: 400px;
+  border: solid 2px white;
 }
