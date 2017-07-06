@@ -1,8 +1,15 @@
 .img-container img {
-  width: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .navbar {
   min-height: 50px;
+  background-color: #fff !important;
+}
+.navbar-default .nav-links .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  color: black;
 }
 #status-alert {
   top: 50px;
@@ -17,6 +24,14 @@
 .alert-dismissable .close {
   top: 0;
   right: 0;
+}
+.content-output p {
+  font-size: inherit;
+  color: inherit;
+}
+p.content-output p {
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
@@ -165,8 +180,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: bottom;
-  background-color: black;
-  background-image: url('http://st.hzcdn.com/simgs/6c61825701ba01a3_8-4618/traditional.jpg');
+  background-color: #e3e3e3;
   text-align: center;
   color: white;
 }
