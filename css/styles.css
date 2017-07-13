@@ -448,9 +448,40 @@ p.content-output p {
   margin: 0;
   padding: 0;
 }
-#portfolio .panel-content {
+#portfolio .row div {
+  padding-bottom: 0;
+}
+#portfolio #hardwood-panel .panel-image {
+  background-image: url('http://st.hzcdn.com/simgs/2bb11e8f012f9493_8-2729/hardwood-flooring.jpg');
+}
+#portfolio #tile-panel .panel-image {
+  background-image: url('http://st.hzcdn.com/simgs/75518a970130d53d_8-4819/wall-and-floor-tile.jpg');
+}
+#portfolio #backsplash-panel .panel-image {
+  background-image: url('http://st.hzcdn.com/simgs/5a01a071012f8488_8-8622/traditional.jpg');
+}
+#portfolio #bath-panel .panel-image {
+  background-image: url('http://st.hzcdn.com/simgs/f791c9ff012fa947_8-8028/traditional.jpg');
+}
+#portfolio .panel-container {
+  height: 400px;
+}
+#portfolio .panel-label {
   text-transform: uppercase;
   text-align: center;
-  height: 400px;
+  font-size: 18px;
+  line-height: 36px;
+  height: 75px;
   border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#portfolio .panel-image {
+  background-size: cover;
+  height: 320px;
+}
+#portfolio .portfolio-box {
+  border: solid 5px white;
+  max-width: 400px;
 }
