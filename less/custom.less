@@ -38,7 +38,12 @@ section {
     background-color: #fff;
     margin:0 !important;
 }
-
+.navbar-default li {
+    &:hover {
+        background-color: rgba(207, 168, 131, 1);
+        color: white;
+    }
+}
 .navbar-default .nav-links .nav > li > a, .navbar-default .nav > li > a:focus {
     color:black;
 }
@@ -76,37 +81,84 @@ p.content-output p {
         padding-bottom: 0;
     }
     #hardwood-panel .panel-image {
-        background-image: url('http://st.hzcdn.com/simgs/2bb11e8f012f9493_8-2729/hardwood-flooring.jpg')
+        background-image: url('http://st.hzcdn.com/simgs/2bb11e8f012f9493_8-2729/hardwood-flooring.jpg');
+        border-top: none;
     }
     #tile-panel .panel-image {
-        background-image: url('http://st.hzcdn.com/simgs/75518a970130d53d_8-4819/wall-and-floor-tile.jpg')
+        background-image: url('http://st.hzcdn.com/simgs/75518a970130d53d_8-4819/wall-and-floor-tile.jpg');
+        border-bottom: none;
     }
     #backsplash-panel .panel-image {
-        background-image: url('http://st.hzcdn.com/simgs/5a01a071012f8488_8-8622/traditional.jpg')
+        background-image: url('http://st.hzcdn.com/simgs/5a01a071012f8488_8-8622/traditional.jpg');
+        border-top: none;
     }
     #bath-panel .panel-image {
-        background-image: url('http://st.hzcdn.com/simgs/f791c9ff012fa947_8-8028/traditional.jpg')
+        background-image: url('http://st.hzcdn.com/simgs/f791c9ff012fa947_8-8028/traditional.jpg');
+        border-bottom: none;
     }
     .panel-container {
         height: 400px;
     }
     .panel-label {
         text-transform: uppercase;
-        text-align: center;
-        font-size: 18px;
-        line-height: 36px;
+        text-align: right;
+        font-size: 24px;
         height: 75px;
         border: solid 2px white;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #cc9553;
+        color: white;
+        border: solid 5px white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'open sans condensed', sans-serif;
+        position: relative;
+    }
+    #hardwood-panel .panel-label, #backsplash-panel .panel-label {
+        text-align: right;
+        .inner-diamond {
+            height: 25px;
+            width: 25px;
+            background-color: white;
+            position:absolute;
+            left: 15px;
+            bottom: -12px;
+            transform: rotate(45deg);
+            z-index: 999;
+        }
+    }
+    #tile-panel .panel-label, #bath-panel .panel-label {
+        text-align: left;
+        .inner-diamond {
+            height: 25px;
+            width: 25px;
+            background-color: white;
+            position:absolute;
+            right: 15px;
+            top: -12px;
+            transform: rotate(45deg);
+            z-index: 999;
+        }
     }
     .panel-image {
         background-size: cover;
         height: 320px;
+        border: solid 5px white;
+        position: relative;
+        .inner-border {
+            border: solid 2px white;
+            position: absolute;
+            top: 5px;
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+        }
+        
     }
     .portfolio-box {
-        border: solid 5px white;
+        //border: solid 5px white;
         max-width: 400px;
     }
 }

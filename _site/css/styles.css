@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
 }
 p {
   font-size: 16px;
@@ -59,16 +59,15 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: rgba(255, 0, 0, 0.7);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -76,7 +75,6 @@ aside {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
   color: #222;
@@ -241,7 +239,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -370,7 +368,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
@@ -422,6 +420,10 @@ section {
   background-color: #fff;
   margin: 0 !important;
 }
+.navbar-default li:hover {
+  background-color: #cfa883;
+  color: white;
+}
 .navbar-default .nav-links .nav > li > a,
 .navbar-default .nav > li > a:focus {
   color: black;
@@ -453,35 +455,84 @@ p.content-output p {
 }
 #portfolio #hardwood-panel .panel-image {
   background-image: url('http://st.hzcdn.com/simgs/2bb11e8f012f9493_8-2729/hardwood-flooring.jpg');
+  border-top: none;
 }
 #portfolio #tile-panel .panel-image {
   background-image: url('http://st.hzcdn.com/simgs/75518a970130d53d_8-4819/wall-and-floor-tile.jpg');
+  border-bottom: none;
 }
 #portfolio #backsplash-panel .panel-image {
   background-image: url('http://st.hzcdn.com/simgs/5a01a071012f8488_8-8622/traditional.jpg');
+  border-top: none;
 }
 #portfolio #bath-panel .panel-image {
   background-image: url('http://st.hzcdn.com/simgs/f791c9ff012fa947_8-8028/traditional.jpg');
+  border-bottom: none;
 }
 #portfolio .panel-container {
   height: 400px;
 }
 #portfolio .panel-label {
   text-transform: uppercase;
-  text-align: center;
-  font-size: 18px;
-  line-height: 36px;
+  text-align: right;
+  font-size: 24px;
   height: 75px;
   border: solid 2px white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #cc9553;
+  color: white;
+  border: solid 5px white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'open sans condensed', sans-serif;
+  position: relative;
+}
+#portfolio #hardwood-panel .panel-label,
+#portfolio #backsplash-panel .panel-label {
+  text-align: right;
+}
+#portfolio #hardwood-panel .panel-label .inner-diamond,
+#portfolio #backsplash-panel .panel-label .inner-diamond {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  position: absolute;
+  left: 15px;
+  bottom: -12px;
+  transform: rotate(45deg);
+  z-index: 999;
+}
+#portfolio #tile-panel .panel-label,
+#portfolio #bath-panel .panel-label {
+  text-align: left;
+}
+#portfolio #tile-panel .panel-label .inner-diamond,
+#portfolio #bath-panel .panel-label .inner-diamond {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  position: absolute;
+  right: 15px;
+  top: -12px;
+  transform: rotate(45deg);
+  z-index: 999;
 }
 #portfolio .panel-image {
   background-size: cover;
   height: 320px;
+  border: solid 5px white;
+  position: relative;
+}
+#portfolio .panel-image .inner-border {
+  border: solid 2px white;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
 }
 #portfolio .portfolio-box {
-  border: solid 5px white;
   max-width: 400px;
 }
