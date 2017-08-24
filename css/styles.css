@@ -420,9 +420,19 @@ section {
   background-color: #fff;
   margin: 0 !important;
 }
+.navbar-default li {
+  width: 155px;
+  text-align: center;
+}
+.navbar-default li a {
+  font-family: Open Sans, sans-serif !important;
+  font-weight: 300 !important;
+}
 .navbar-default li:hover {
   background-color: #cfa883;
-  color: white;
+}
+.navbar-default li:hover a {
+  color: white !important;
 }
 .navbar-default .nav-links .nav > li > a,
 .navbar-default .nav > li > a:focus {
