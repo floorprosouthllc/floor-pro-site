@@ -546,3 +546,9 @@ p.content-output p {
 #portfolio .portfolio-box {
   max-width: 400px;
 }
+hr {
+  border-color: #cc9553;
+}
+.img-container {
+  height: 250px;
+}
