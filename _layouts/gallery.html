@@ -36,7 +36,8 @@
             {% for image in site.static_files %}
                 {% if image.path contains 'image' and image.path contains page.page %}
                     <div class="col-xs-12 col-md-4 img-container">
-                        <a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="thumb-nail">
+<!--                        <a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="thumb-nail">-->
+                        <a href="{{ site.url }}{{ image.path }}" data-lightbox="thumb-nail">
                             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="img-responsive"/>
                         </a>
                     </div>

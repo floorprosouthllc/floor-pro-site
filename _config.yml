@@ -17,7 +17,7 @@ title: Floor Pro
 email: estenpatrick@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Esten Patrick's personal and portfolio website.
-baseurl: "/floor-pro" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.floorpro.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Collections
