@@ -416,6 +416,31 @@ section {
 .navbar .logo-header {
   background-color: #e3e3e3;
 }
+.navbar .navbar-right .dropdown-menu {
+  right: auto;
+}
+.navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: auto;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.navbar .navbar-nav > li > .dropdown-menu li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 7px;
+  background-color: white;
+}
+.navbar .navbar-nav > li > .dropdown-menu li:hover {
+  background-color: #cfa883;
+  color: white;
+}
+.navbar .navbar-nav > li > .dropdown-menu li a {
+  padding: 0;
+  background: none;
+}
 .nav-links {
   background-color: #fff;
   margin: 0 !important;
@@ -431,7 +456,7 @@ section {
 .navbar-default li:hover {
   background-color: #cfa883;
 }
-.navbar-default li:hover a {
+.navbar-default li:hover > a {
   color: white !important;
 }
 .navbar-default .nav-links .nav > li > a,

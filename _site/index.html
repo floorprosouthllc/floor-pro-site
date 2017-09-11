@@ -57,19 +57,46 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse nav-links" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li class="active">
                     <a class="page-scroll" href="#about">About</a>
+
                 </li>
                 <li>
                     <a class="page-scroll" href="#services">Why Floor Pro?</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="tile.html">Work</a>
+                <li class="dropdown">
+<!--                    <a class="page-scroll" href="tile.html">Products</a>-->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Wood/Laminate</a></li>
+                        <li><a href="#">Tile</a></li>
+                        <li><a href="#">Splashes</a></li>
+                        <li><a href="#">Showers</a></li>
+                        <li><a href="#">Carpet</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
             </ul>
+            <!--<ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>-->
         </div>
         <!-- /.navbar-collapse -->
     </div>
@@ -78,6 +105,7 @@
     
     -->
 </nav>
+
 
 
 
@@ -154,7 +182,7 @@
 
     <aside class="footer">
         <div class="container address">
-            <p class="text-muted"><i class="fa fa-copyright"></i>Floor Pro 2016 <br> 41N 3520 HWY #1000<br> Byron, GA 31008</p>
+            <p class="muted"><i class="fa fa-copyright"></i>Floor Pro 2016 <br> 3520 Hwy 41 N Ste:1000<br> Byron, GA 31008</p>
         </div>
     </aside>
     
@@ -194,6 +222,13 @@
                 
             });
             checkAlertCookie();
+            
+            $('ul.nav li.dropdown').hover(function() {
+                console.log('hi');
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            }, function() {
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            });
         });
     </script>
 

@@ -1603,7 +1603,7 @@
 
     <aside class="footer">
         <div class="container address">
-            <p class="text-muted"><i class="fa fa-copyright"></i>Floor Pro 2016 <br> 41N 3520 HWY #1000<br> Byron, GA 31008</p>
+            <p class="muted"><i class="fa fa-copyright"></i>Floor Pro 2016 <br> 3520 Hwy 41 N Ste:1000<br> Byron, GA 31008</p>
         </div>
     </aside>
     
@@ -1643,6 +1643,13 @@
                 
             });
             checkAlertCookie();
+            
+            $('ul.nav li.dropdown').hover(function() {
+                console.log('hi');
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            }, function() {
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            });
         });
     </script>
 
