@@ -401,6 +401,9 @@ body {
 #logo {
   margin: 5px;
 }
+body {
+  font-family: 'open sans condensed', sans-serif;
+}
 section {
   background-color: #e3e3e3;
 }
@@ -484,6 +487,9 @@ section {
 p.content-output p {
   margin: 0;
   padding: 0;
+}
+#portfolio {
+  padding-bottom: 150px;
 }
 #portfolio .row div {
   padding-bottom: 0;
@@ -576,4 +582,18 @@ hr {
 }
 .img-container {
   height: 250px;
+}
+.footer {
+  padding-bottom: 15px;
+}
+.footer .address {
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+.footer .address p {
+  margin-bottom: 0;
+}
+.footer .houzz-container {
+  float: right;
+  padding-right: 20px;
 }
