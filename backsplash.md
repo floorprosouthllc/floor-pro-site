@@ -1,9 +1,10 @@
 ---
 
 layout: gallery
-title: Backsplashs
+title: Backsplashes
 page: backsplash
 
 ---
 
-Content for backsplash.
+Simple and elegant to bright and colorful we can bring a special touch to
+your kitchen or bathroom with the latest in decorative tile, glass, and stone.
