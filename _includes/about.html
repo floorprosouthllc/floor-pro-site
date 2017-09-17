@@ -1,24 +1,24 @@
-<section class="bg-primary" id="about">
+<section id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 col-md-12">
                 <h2 class="section-heading content-output">
-                    {% for about-main in site.homepage-content %}
-                        {% if about-main.content-area == 'about-main' %}
-                            {{about-main}}
-                        {% endif %}
-                    {% endfor %}
+                    About Us
                 </h2>
-                <hr class="light">
-                <div class="text-faded content-output">
-                    {% for about-detail in site.homepage-content %}
-                        {% if about-detail.content-area == 'about-detail' %}
-                            {{about-detail}}
-                        {% endif %}
-                    {% endfor %}
-                    <a href="#contact" class="btn btn-default btn-xl wow tada">Get an Estimate</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <div class="page-content">
+                    <img src="../images/image2.jpg" />
                 </div>
             </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="page-content">
+                    <p>This is where information about the company would go.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

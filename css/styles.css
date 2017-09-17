@@ -640,3 +640,10 @@ hr {
 .navbar-collapse.in {
   overflow-y: visible;
 }
+#about .page-content {
+  min-height: 300px;
+  padding: 20px;
+}
+#about .page-content img {
+  width: 100%;
+}
