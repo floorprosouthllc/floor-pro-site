@@ -644,6 +644,9 @@ hr {
   min-height: 300px;
   padding: 20px;
 }
-#about .page-content img {
-  width: 100%;
+#about .page-content.about-us-img {
+  background-image: url(../images/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 7px whitesmoke;
 }
