@@ -4499,6 +4499,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/bath\/5825.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605021,
+		"inputAbbreviatedPath": "\/_site\/images\/bath\/5825.jpeg",
+		"outputAbbreviatedPath": "\/_site\/images\/bath\/5825.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/bath\/5827.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 600042,
+		"inputAbbreviatedPath": "\/_site\/images\/bath\/5827.jpeg",
+		"outputAbbreviatedPath": "\/_site\/images\/bath\/5827.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/bath\/home-design.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10746,6 +10768,28 @@
 		"initialSize": 33277,
 		"inputAbbreviatedPath": "\/images\/bath\/2011-06-22 14.57.54.jpg",
 		"outputAbbreviatedPath": "\/images\/bath\/2011-06-22 14.57.54.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bath\/5825.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605021,
+		"inputAbbreviatedPath": "\/images\/bath\/5825.jpeg",
+		"outputAbbreviatedPath": "\/images\/bath\/5825.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bath\/5827.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 600042,
+		"inputAbbreviatedPath": "\/images\/bath\/5827.jpeg",
+		"outputAbbreviatedPath": "\/images\/bath\/5827.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
