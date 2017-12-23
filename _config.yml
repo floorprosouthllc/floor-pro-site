@@ -14,12 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Floor Pro
-email: estenpatrick@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Esten Patrick's personal and portfolio website.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://www.floorpro.com" # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://www.estenpatrick.com/floor-pro"
+url: "http://www.yourfloorpro.com/"
 # Collections
 collections:
   homepage-content:
@@ -37,7 +34,7 @@ exclude:
 sass:
     sass_dir: _sass
 prose:
-  siteurl: 'http://www.estenpatrick.com/floor-pro'
+  siteurl: 'http://www.yourfloorpro.com/'
   media: 'images'
   ignore:
     - _config.yml
